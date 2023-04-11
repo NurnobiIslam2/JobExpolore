@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { useLoaderData, } from 'react-router-dom';
+import { useLoaderData, useRouteLoaderData } from 'react-router-dom';
 
 const JobDetails = () => {
-    const {jobdetails }= useLoaderData();
-    console.log(jobdetails)
+    const jobExplore = useRouteLoaderData("job-explore");
+    console.log( jobExplore)
    
     
     return (
