@@ -1,0 +1,31 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color:  #F9F9FF;
+}
+.header-container h1{
+    margin-left: 120px;
+}
+.header-container a{
+    text-decoration: none;  
+    
+}
+.link-item{
+    margin-left: 22%;
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    
+}
+.applay-btn{
+    margin-left: 570px;
+    width: 190px;
+    height: 60px;
+    background: #9873FF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}

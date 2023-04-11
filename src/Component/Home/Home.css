@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    margin-left: 650px;
+    margin-top:30px ;
+    
+}
+.home-container{
+     width: 400px;
+}
+.main-container{
+    background-color:  #F9F9FF;
+    margin-top: -30px;
+}
+.name-bar{
+    width: 450px;
+    font-size: 70px;
+}
+.home-btn{
+    width: 190px;
+    height: 60px;
+    background: #9873FF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+.category-titel h3{
+    margin-left:40%;
+    margin-top:50px ;
+    font-size: 50px;
+}
+.category-titel p{
+    margin-left:30%;
+    font-size: 24px;
+}
+.category-container{
+   display: flex;
+   margin-left:120px ;
+}
+.job-categoty{
+    width: 300px;
+    height: 250px;
+    background-color:  #F9F9FF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 50px;
+    
+}
+.job-categoty h4{
+    font-size: 24px;
+}
+.icon{
+    font-size:100px;
+    background:  #F9F9FF;
+}
+.jobs-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 250px;
+}
+.dream-job{
+    color: #7E90FE;
+    
+}
