@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
-import { useLoaderData, useRouteLoaderData } from 'react-router-dom';
+import { useLoaderData, useParams, useRouteLoaderData } from 'react-router-dom';
+import { findJobById } from '../../utils/findJob';
 
 const JobDetails = () => {
-    const jobExplore = useRouteLoaderData("job-explore");
-    console.log( jobExplore)
+    const jobExplores = useLoaderData();
+    const params = useParams();
+    const jobExplore = findJobById(params.jobId, jobExplores);
+    console.log(jobExplore);
+   
    
     
     return (
